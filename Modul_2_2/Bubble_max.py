@@ -67,12 +67,5 @@ def random_fibonachi(n):
 print ('Random fibonachi list ', random_fibonachi(tt))
 g = random_fibonachi(tt)
 print('Sorted fibonachi list ', sort_by_choice(g))
-'''
-print('Sorted fibonachi list ', sort_by_choice(random_fibonachi(n)))
- - видає помилку mixed_fibonachi_list = [list_fib[random.randint(0, n*5-1)] for j in range(n)]
-IndexError: list index out of range
 
-Чому?
-
-'''
 
