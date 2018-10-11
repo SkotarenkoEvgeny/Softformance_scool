@@ -11,7 +11,7 @@ def fib_simple(i):
 
     try:
         assert i >0
-        list_fib = [0]
+        list_fib = []
         f1, f2 = 0, 1
         for i in range(i-1):
             f1, f2 = f2, f1+f2
