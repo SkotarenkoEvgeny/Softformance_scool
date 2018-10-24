@@ -87,8 +87,7 @@ def modif_buble(mixed_list):
                 temp = mixed_list[j]
                 mixed_list[j] = mixed_list[j + 1]
                 mixed_list[j + 1] = temp
-            if mixed_list[j + 1] % 2 == mixed_list[j] % 2:
-                if mixed_list[j + 1] < mixed_list[j]:
+            if mixed_list[j + 1] % 2 == mixed_list[j] % 2 and mixed_list[j + 1] < mixed_list[j]:
                     temp = mixed_list[j]
                     mixed_list[j] = mixed_list[j + 1]
                     mixed_list[j + 1] = temp
