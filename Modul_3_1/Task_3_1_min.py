@@ -6,7 +6,8 @@ name = input('Your name is {}'.format(input('Enter Your name ')))
 # 2 Створити програму яка запитує користувача його імя та вік та, отримавши відповіді
 # повідомить користувача коли йому виповниться 100 років.
 [name,  adge] = input('name adge ').split(' ')
-try: int(adge)
+try:
+    int(adge)
 except ValueError:
     name, adge = adge, name
 print('Dear {}. After {} years you have 100 years old'.format(name, (100 - int(adge))))
